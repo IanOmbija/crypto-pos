@@ -76,7 +76,7 @@ Sample URL: `http://localhost:3000`
 #### - Create a merchant
 
 ```http
-  POST /api/merchant/{id}/
+  POST  api/merchant/create-merchant
 ```
 
 | Parameter | Type     | Description                       |
@@ -449,3 +449,6 @@ Developed by Ian - [@IanOmbija](https://github.com/IanOmbija)
 ## Tech Stack
 
 **Client:** NestJS
+
+
+
